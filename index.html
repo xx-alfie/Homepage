@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="xx-alfie Homepage to show projects and CV">
+    <meta name="keywords" content="CV, Projects, About Me">
+    <meta name="author" content="xx-alfie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" href="src/styles/sidebar.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="sidebar-Nav">
+        <h4>Name</h4>
+        <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="projects.html"><i class="fa fa-fw fa-wrench"></i> Projects</a>
+        <a href="src/miscFiles/CV.pdf"><i class="fa fa-fw fa-user"></i> CV</a>
+        <div class="contactDropdown">
+            <button onclick="contactDropdown()" class="contactDropbtn"><i class="fa fa-fw fa-envelope"></i> Contact Me</button>
+            <div id="contactDropdown" class="contactDropdown-content">
+                <a href="mailto:alfietippett10@outlook.com">Email</a>
+                <a href="#">LinkedIn</a>
+                <a href="https://github.com/xx-alfie">Github</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
