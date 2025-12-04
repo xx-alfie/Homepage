@@ -1,7 +1,4 @@
 
-
-
-
 /* Contact Me Dropdown */
 
 .contactDropbtn {
@@ -19,5 +16,27 @@
 }
 
 .contactDropdown {
-    
+    position: relative;
+    display: inline;
 }
+
+.contactDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0c7bc9;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.contactDropdown-content a {
+    color: #0000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.contactDropdown-content a:hover {background-color: #2980B9;}
+
+.show {display: block;}
